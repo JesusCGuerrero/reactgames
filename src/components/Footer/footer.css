@@ -1,0 +1,24 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 2%;
+    width: 100%;
+    color: rgb(161, 183, 202);
+    font-size: .8rem;
+}
+
+.footer p {
+    font-weight: lighter;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(161, 183, 202);
+    transition-duration: 1s;
+}
+
+.footer a:hover {
+    color: rgb(52, 255, 255);
+    font-size: .81rem;
+}

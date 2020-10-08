@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.snake {
+    margin-top: 5%;
+    color: rgb(124, 137, 151);
+
+}
+
+.snake-canvas {
+
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.game-over {
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: fixed;
+    bottom: 55%;
+    color: rgb(74, 228, 255);
+    font-family: 'Press Start 2P', cursive;
+    animation: gameOver .5s alternate infinite;
+}
+
+.start {
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(0, 238, 255);
+    border-radius: 7px;
+    border: 2px solid rgb(0, 238, 255);
+    padding: 10px 20px;
+    background-color: rgba(255, 0, 0, 0);
+    transition-duration: 1s;
+}
+
+.start:hover {
+    background-color: rgb(0, 238, 255);
+    color: #2e3646;
+}
+
+@keyframes gameOver {
+    0%   {color: rgba(74, 228, 255, 0);}
+    100% {color: rgb(74, 228, 255);}
+  }
